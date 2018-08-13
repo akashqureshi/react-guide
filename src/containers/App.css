@@ -1,0 +1,33 @@
+.App {
+    text-align: center;
+}
+
+.Red {
+    color: red;
+}
+
+.Bold {
+    font-weight: bold;
+}
+
+.App button {
+    background-color: blue;
+    color: white;
+    font: inherit;
+    border: 1px solid blue;
+    padding: 8px;
+}
+
+.App button:hover {
+    background: lightblue;
+    color: black;
+    cursor: pointer;
+}
+
+.App button.Red {
+    background: red;
+}
+
+.App button.Red:hover {
+    background: salmon;
+}
